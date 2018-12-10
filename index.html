@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <title>
+    兜礼
+  </title>
+  <style>
+    a[title='站长统计'] {
+      display: none;
+    }
+
+  </style>
+
+</head>
+
+<body>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+<script>
+  var cnzz_protocol;
+  var Cspan;
+  var s11;
+  var test = window.location.href;
+  if (test.indexOf("reach_dist") > 0 || test.indexOf("reachtest") > 0 || test.indexOf("localhost") > 0) {
+    cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    Cspan = "%3Cspan id='cnzz_stat_icon_1262110127'%3E%3C/span%3E%3Cscript src='";
+    s11 = "s22.cnzz.com/z_stat.php%3Fid%3D1262110127' type='text/javascript'%3E%3C/script%3E";
+  } else {
+    cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    Cspan = "%3Cspan id='cnzz_stat_icon_1260241271'%3E%3C/span%3E%3Cscript src='";
+    s11 = "s11.cnzz.com/z_stat.php%3Fid%3D1260241271' type='text/javascript'%3E%3C/script%3E";
+  }
+  document.write(unescape(Cspan + cnzz_protocol + s11));
+</script>
+
+</html>
