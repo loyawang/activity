@@ -1,2 +1,2 @@
 # activity
-vue+vuex+webpack(在我备份)
+vue+vuex+webpack(自我备份)
